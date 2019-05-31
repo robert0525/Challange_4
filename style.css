@@ -33,15 +33,28 @@ form {
     font-size: 26px;
 }
 
-.submit-btm {
-    font-size: 26px;
-    padding: 13px;
-    margin: 13px;
-}
 
 #submit {
     font-size: 33px;
     position: absolute;
     min-width: 22%;
     height: 20%;
+}
+
+input {
+    width: 7%;
+    height: 13%;
+    padding: 5px;
+    margin:5px;
+}
+
+.btm {
+    padding: 11px;
+    margin: 40px;
+    
+}
+
+#submit {
+    width: 140px;
+    height: 100px;
 }
