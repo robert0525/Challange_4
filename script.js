@@ -1,11 +1,10 @@
-function volum_sphare() {
+function volume_sphere() {
     var volume;
     var radius = document.getElementById("radius").value;
     radius = Math.abs(radius);
     volume = (4/3) * Math.PI * Math.pow(radius, 3);
     volum = volume.toFixed(4);
-    document.getElementById('volume').value = volum;
+    document.getElementById('volume').value = volume;
     return false;
 }
-
-window.onload = document.getElementById('MyForm').onsubmit = volum_sphere;
+window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
