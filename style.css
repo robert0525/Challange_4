@@ -1,12 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+
 body {
     padding: 33px;
-    background-image: url(img/sphere.jpg);
+    background-image: url(img/sphere2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Orbitron', sans-serif;
 }
 
 h1 {
     text-align: center;
+    padding: 33px;
+    margin: 33px;
+    color: white;
 }
 
 label input {
+   
     display: block;
+    color: white;
+}
+
+form {
+    text-align: center;
+    color: white;
+}
+.lable1 {
+    font-size: 26px;
+}
+
+.submit-btm {
+    font-size: 26px;
+    padding: 13px;
+    margin: 13px;
+}
+
+#submit {
+    font-size: 33px;
+    position: absolute;
+    min-width: 22%;
+    height: 20%;
 }
